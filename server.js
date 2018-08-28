@@ -14,7 +14,7 @@ const INACTIVE_CHECK_INTERVAL = 5000;
 const connection = new Telnet( {
     host: '192.168.0.1',
     username: process.env.ADMIN_USER,
-    password: process.env.ADMIN_USER,
+    password: process.env.ADMIN_PASSWORD,
     // debug: true,
 } );
 const client = new Lifx( {
