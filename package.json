@@ -1,0 +1,16 @@
+{
+  "name": "wifi-lamps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "lifx-http-api": "^1.0.3"
+  }
+}
